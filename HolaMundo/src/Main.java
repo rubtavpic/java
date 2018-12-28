@@ -1,11 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        //Esto es un comentario
-        /*
-        Este es un comentario
-        de multiples lineas
-         */
-        System.out.println("Hola mundo");
-        System.out.println("Adios");
+        var saludos = "Hola Mundo, adios.";
+        System.out.println(saludos);
+        System.out.println(saludos);
+        System.out.println(saludos);
+
+        var s = "despedirse";
+        System.out.println();
+        System.out.println(s);
     }
 }
